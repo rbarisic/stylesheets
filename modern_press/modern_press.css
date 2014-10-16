@@ -1,0 +1,123 @@
+body {
+
+	font-family: "Bitter", sans-serif;
+
+	color: #eee;
+	background-color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+	font-family: "Raleway", sans-serif;
+	font-weight: 200;
+}
+
+h1 {
+	line-height: 1em;
+	font-size: 3em;
+}
+
+.notification {
+	
+	font-size: 1.2em;
+
+	text-align: center;
+
+	padding: 0.5em;
+	margin: 0;
+
+	color: #002157;
+	background-color: #6ECFF6;
+}
+
+.notification.positive {
+
+	color: #005826;
+	background-color: #82CA9D;
+}
+
+.notification.negative {
+
+	color: #790000;
+	background-color: #F7977A;
+}
+
+input { 
+
+	font-family: "Ruboto", sans-serif;
+}
+
+button {
+
+	font-family: "Ruboto", sans-serif;
+}
+
+input {
+
+	padding: 0.5em;
+
+	border: 1px solid #333;
+	outline: 1px solid #eee;
+
+	color: #333;
+	background-color: #eee;
+}
+
+input:hover {
+
+	background-color: #;
+}
+
+.icon {
+
+	display: inline;
+
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 26px;
+	height: 26px;
+}
+
+.icon.float-left {
+
+	float: left;
+}
+
+.icon.float-right {
+
+	float: right;
+}
+
+.vertical-list {
+
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.vertical-list ul {
+
+	width: 20em;
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0.5em;
+
+	padding: 1em;
+
+	border: 1px solid #ccc;
+}
+
+.vertical-list ul li {
+
+	display: block;
+	margin-bottom: 0.5em;
+}
+
+#content {
+
+	width: 80%;
+	padding: 2em;
+	margin: 0 auto;
+
+	color: #333;
+	background-color: #eee;
+}
